@@ -1,4 +1,4 @@
-ocjp-resources
+OCJP Resources
 ==============
 
 Recursos que serão utilizados pelo nosso grupo de estudos para
@@ -7,7 +7,7 @@ a certificação OCJP.
 
 ## Simulados:
 
-- http://www.danchisholm.net/oct1/mybook/index.html)
+- [danchisholm](http://www.danchisholm.net/oct1/mybook/index.html)
 - [coderanch](http://www.coderanch.com/how-to/java/ScjpMockTests)
 - [JCHQ 1](http://www.jchq.net/mockexams/exam1.htm)
 - [JCHQ 2](http://www.jchq.net/mockexams/exam3.htm)
