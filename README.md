@@ -57,6 +57,7 @@ a certificação OCJP.
 
 ## Provas
 
+|Code |Desc | $$  |
 |:---:|:---:|:---:|
 | 1Z0-850 | Java Standard Edition 5 and 6, Certified Associate Exam | $US 150.00 |
 | 1Z0-851 | Java Standard Edition 6 Programmer Certified Professional Exam | $US 150.00 |
