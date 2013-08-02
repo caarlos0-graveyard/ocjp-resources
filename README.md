@@ -5,7 +5,7 @@ Recursos que serão utilizados pelo nosso grupo de estudos para
 a certificação OCJP.
 
 
-## Simulados:
+## Simulados
 
 - [danchisholm](http://www.danchisholm.net/oct1/mybook/index.html)
 - [coderanch](http://www.coderanch.com/how-to/java/ScjpMockTests)
@@ -23,17 +23,17 @@ a certificação OCJP.
 - [Devesh Chanchlani](http://sites.google.com/site/devesh2k1/home)
 - [JavaRanch Game](http://www.javaranch.com/game/game2.jsp)
 
-## Artigos sobre certificação:
+## Artigos sobre certificação
 
 [Mesmo Questionadas Certificacoes Profissionais são Obrigatorias](http://cio.uol.com.br/carreira/2013/08/02/mesmo-questionadas-certificacoes-profissionais-sao-obrigatorias)
 
-## Sobre a OCJP:
+## Sobre a OCJP
 
 [Saiba Como Tirar OCJP antiga SCJP](http://www.k19.com.br/artigos/saiba-como-tirar-ocjp-antiga-scjp)
 
 > tem apostilas sobre java em geral gratuitas e muito boas
 
-# Centros autorizados mais proximos:
+## Centros autorizados mais proximos
 
 | Test Center | Information | **Distance | City | State/Province | Country | Map |
 |:-----------:|:-----------:|:----------:|:----:|:--------------:|:-------:|:---:|
@@ -65,15 +65,15 @@ a certificação OCJP.
 | 1Z0-804 | Java SE 7 Programmer II | $US 150.00 |
 | 1Z0-805 | Upgrade to Java SE 7 Programmer | $US 150.00 |
 
-## Livros (primeiras sugestões):
+## Livros (primeiras sugestões)
 
 - [OCA/OCP Java SE 7 Programmer I & II Study Guide (Exams 1Z0-803 & 1Z0-804) (Certification Press)](http://www.amazon.com/Programmer-Study-1Z0-803-1Z0-804-Certification/dp/0071772006/ref=sr_1_1?ie=UTF8&qid=1364339452&sr=8-1&keywords=OCJP+7)
 - [SCJP Sun Certified Programmer for Java 6 Exam 310-065](http://www.amazon.com/SCJP-Certified-Programmer-Java-310-065/dp/0071591060)
 
-## Materiais:
+## Materiais
 
 - [Java SE 7 OCAJP and OCPJP Study Material](https://www.java.net//article/2012/08/28/java-se-7-ocajp-and-ocpjp-study-material)
 
-## Dicas de quem passou:
+## Dicas de quem passou
 
 - [pablonobrega](http://pablonobrega.wordpress.com/2010/04/20/50-dicas-praticas-para-o-exame-scjp-java-6)
