@@ -13,12 +13,16 @@ class MCZ11 {
 
 A compile-time error is generated at which line?
 
-- a.  1
+- **a.  1**
 - b.  2
 - c.  3
 - d.  4
 - e.  5
 - f.  None of the above
+
+> Os caracteres de escape válidos são: Big Farms Need Red Tractors, aspas simples e
+> duplas e a barra invertida
+
 
 # Question 2
 
@@ -37,8 +41,10 @@ What is the result of attempting to compile and run the program?
 - c.  Prints: null
 - d.  Prints: 0
 - e.  Run-time error
-- f.  Compile-time error
+- **f.  Compile-time error**
 - g.  None of the above
+
+> variaveis de método nao sao automaticamente inicializadas =)
 
 # Question 3
 
@@ -58,9 +64,11 @@ A compile-time error is generated at which line?
 - a.  1
 - b.  2
 - c.  3
-- d.  4
+- **d.  4**
 - e.  5
 - f.  None of the above
+
+> Mesma coisa da question 1
 
 # Question 4
 
@@ -78,7 +86,9 @@ What is the result of attempting to compile and run the above programs?
 - d.  An attempt to run GRC4 from the command line fails.
 - e.  An attempt to run GRC5 from the command line fails.
 - f.  An attempt to run GRC6 from the command line fails.
-- g.  None of the above
+- **g.  None of the above**
+
+> É feio e estranho, mas a 2 realmente funciona...
 
 # Question 5
 
@@ -96,11 +106,13 @@ class MCZ28 {
 A compile-time error is generated at which line?
 
 - a.  1
-- b.  2
+- **b.  2**
 - c.  3
 - d.  4
 - e.  5
 - f.  None of the above
+
+> mais do mesmo...
 
 # Question 6
 
