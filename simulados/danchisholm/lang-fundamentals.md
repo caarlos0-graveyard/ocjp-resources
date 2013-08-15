@@ -129,10 +129,12 @@ What is the result of attempting to compile and run the program?
 - a.  Prints: 0,255
 - b.  Prints: 0,256
 - c.  Prints: -127,128
-- d.  Prints: -128,127
+- **d.  Prints: -128,127**
 - e.  Compile-time error
 - f.  Run-time error
 - g.  None of the above
+
+> um byte é um valor ~assinado~ que tem minimo de -(2)^7 e o maximo 2^7 - 1
 
 # Question 7
 
@@ -157,9 +159,13 @@ Compile-time errors are generated at which lines?
 - c.  3
 - d.  4
 - e.  5
-- f.  6
-- g.  7
-- h.  8
+- **f.  6**
+- **g.  7**
+- **h.  8**
+
+> um byte tem 8 bits e um long tem 64 bits... 
+> float tem 32 bits
+> double tbm tem 64 bits
 
 # Question 8
 
@@ -176,11 +182,14 @@ class MWC101 {
 
 Compile-time errors are generated at which lines?
 
-- a.  1
+- **a.  1**
 - b.  2
 - c.  3
 - d.  4
-- e.  5
+- **e.  5**
+
+> o array só pode ter ou o tamanho ou o initializer. se tiver os dois dá erro de compilaçao
+> se nenhum dos dois for informado, também dá erro de compilação
 
 # Question 9
 
@@ -197,8 +206,11 @@ and invoke each main method from the command line?
 - b.  Compile-time error at line 2.
 - c.  Compile-time error at line 3.
 - d.  An attempt to run GRC1 from the command line fails.
-- e.  An attempt to run GRC2 from the command line fails.
-- f.  An attempt to run GRC3 from the command line fails.
+- **e.  An attempt to run GRC2 from the command line fails.**
+- **f.  An attempt to run GRC3 from the command line fails.**
+
+> vai compilar normalmente, porem nao sao metodos main validos
+> logo, vai dar erro, pois nao tem uma main valida.
 
 # Question 10
 
@@ -213,12 +225,14 @@ class JJF2 {
 What is the result of attempting to compile and run the program?
 
 - a.  Prints: -32767,32768
-- b.  Prints: -32768,32767
+- **b.  Prints: -32768,32767**
 - c.  Prints: 0,65535
 - d.  Prints: 0,65536
 - e.  Compile-time error
 - f.  Run-time error
 - g.  None of the above
+
+> um short tem 16 bits e minimo de -(2^15) e maximo de (2^15 - 1).  
 
 # Question 11
 
@@ -237,11 +251,15 @@ class GFC101 {
 Compile-time errors are generated at which lines?
 
 - a.  1
-- b.  2
-- c.  3
+- **b.  2**
+- **c.  3**
 - d.  4
 - e.  5
-- f.  6
+- **f.  6**
+
+> o valor maximo do byte é 127.
+> o valor minimo do short é -32768
+> o valor maximo do char é 65635
 
 # Question 12
 
@@ -257,10 +275,13 @@ class MWC102 {
 What is the result of attempting to compile and run the program?
 
 - a.  Prints: 0,0,0,null
-- b.  Prints: 0,0,0.0,null
+- **b.  Prints: 0,0,0.0,null**
 - c.  Compile-time error
 - d.  Run-time error
 - e.  None of the above
+
+> o array contem o valor default de seu tipo, logo, default de byte e long é 0,
+> de float é 0.0 e de object é null
 
 # Question 13
 
@@ -276,11 +297,19 @@ class JJF3 {
 
 What is the result of attempting to compile and run the program?
 
-- a.  Prints: 1111111,177,127,7f
+- **a.  Prints: 1111111,177,127,7f**
 - b.  Prints: 11111111,377,256,ff
 - c.  Compile-time error
 - d.  Run-time error
 - e.  None of the above
+
+> um byte é um '8 bit signed value'. O bit mais a esquerda é o bit que define se
+> o valor é positivo ou negativo. Ele é setado pra 0 em numeros positivos e
+> pra 1 em nros negativos.
+> O maior numero é 0111_1111 (127) e o Integer#toBinaryString nao imprime
+> leading zeroes.
+> os outros é só fazer as conversoes tbm, e os metodos tbm nao imprimem os
+> leading zeroes (0s a esquerda).
 
 # Question 14
 
@@ -298,24 +327,36 @@ class GFC102 {
 
 Compile-time errors are generated at which lines?
 
-- a.  1
+- **a.  1**
 - b.  2
 - c.  3
-- d.  4
-- e.  5
+- **d.  4**
+- **e.  5**
 - f.  6
+
+> valor minimo do byte é 128
+> valor maximo do short é 32767
+> o valor minimo do char é 0 é pq ele é unsigned.
 
 # Question 15
 
 Which of these words belong to the set of Java keywords?
 
-- a.  transient
+- **a.  transient**
 - b.  serializable
 - c.  runnable
 - d.  run
-- e.  volatile
+- **e.  volatile**
 - f.  externalizable
-- g.  cloneabl- e
+- g.  cloneable
+
+> - transient: diz ao java para nao serializar o valor.
+> - serializable: é uma inteface, nao keyword
+> - runnable: é uma inteface, nao keyword
+> - run: é um metodo da classe thread (se nao me engano), nao keyword
+> - volatile: diz que um atributo pode ser alterado por threads concorrentes
+> - externalizable: nunca vi
+> - cloneable: é uma inteface, nao keyword
 
 # Question 16
 
@@ -335,9 +376,11 @@ What is the result of attempting to compile and run the program?
 - b.  Compile-time error at line 2.
 - c.  Compile-time error at line 3.
 - d.  Compile-time error at line 4.
-- e.  Compile-time error at line 5.
+- **e.  Compile-time error at line 5.**
 - f.  Run-time error
 - g.  None of the above
+
+> variaveis de metodos nao sao inicializadas automaticamente...
 
 # Question 17
 
@@ -354,26 +397,32 @@ What is the result of attempting to compile and run the program?
 
 - a.  Prints: 00000null
 - b.  Prints: 00000
-- c.  Prints: 0null
+- **c.  Prints: 0null**
 - d.  Prints: 0
 - e.  Prints: null
 - f.  Compile-time error
 - g.  Run-time error
 - h.  None of the above
 
+> "a+b+c+d+e" ele soma como numeros normalmente, e, como o proximo
+> item é uma string (s), ele concacatena, ficando "0null",
+> efetivamente.
+
 # Question 18
 
 Which of these words belong to the set of Java keywords?
 
 - a.  virtual
-- b.  goto
+- **b.  goto** - embora nao sirva pra nada
 - c.  ifdef
 - d.  typedef
 - e.  friend
 - f.  struct
-- g.  implements
+- **g.  implements** - obvio
 - h.  union
-- i.  const
+- **i.  const** - outro que nao server pra nada
+
+> os outros sao pra confundir os c-fags
 
 # Question 19
 
@@ -396,8 +445,11 @@ Compile-time errors are generated at which lines?
 - a.  1
 - b.  2
 - c.  3
-- d.  4
+- **d.  4**
 - e.  5
-- f.  6
+- **f.  6**
 - g.  7
-- h.  8
+- **h.  8**
+
+> o nome pode ser qqr letra, _ ou $, sendo que _ e $ sao considerados
+> letras por fatores historicos de moeda e cia..
